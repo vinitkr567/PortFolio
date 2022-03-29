@@ -57,6 +57,7 @@
 .dark{
     color: #8e8d8a;
     size: 40px;
+    padding: 3%;
 }
 
 .navbar{
@@ -97,8 +98,10 @@ code{
     border: none;
 }
 .a{
-    padding-left: 18px;
+    padding-left: 10px;
     padding-right: 10px;
+    margin-right: 2%;
+
 }
 .about-h{
     font-size: x-large;
@@ -114,7 +117,7 @@ strong, .with{
 }
 .skills-img{
     margin-left: 15px;
-    margin-top: 80px;
+    margin-top: 25px;
     height: 150px;
     width: auto;
 }
@@ -124,6 +127,7 @@ strong, .with{
     padding: 10px 16px;
     border-radius: 35px;
     border-width: var(--border-width);
+    margin: 3%;
 }
 .skills-btn{
     color: #8e8d8a;

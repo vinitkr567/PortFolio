@@ -112,7 +112,7 @@ const About = ({darkMode}) => {
                           </Button>
                         </a>
                         <a href="https://github.com/vinitkr567" target="_blank" rel="noreferrer noopener">
-                          <Button variant={darkMode ? "outline-light" : "outline-dark"}>
+                          <Button variant={darkMode ? "outline-light" : "outline-dark"} className='a'>
                             <FontAwesomeIcon className="dark" size="lg" icon={faGithub}/> Vinit Kumar
                           </Button>
                         </a>

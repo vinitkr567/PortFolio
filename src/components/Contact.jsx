@@ -22,7 +22,7 @@ const Contact = ({darkMode}) => {
 
     const onSubmit = async (e) => {
 		e.preventDefault();
-            emailjs.send('service_o2ku4in','template_qtr8txm', templateParams, 'E_oJV0p_Q9lkkL7y4')
+            emailjs.send('gmail','template_tpxb7we', templateParams, 'E_oJV0p_Q9lkkL7y4')
                 .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
                 }, (err) => {
